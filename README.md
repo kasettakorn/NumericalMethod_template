@@ -14,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Learn More
 
-สอบามการใช้งานได้ที่ <br/>
+สอบถามการใช้งานได้ที่ <br/>
 Facebook: Ronnakorn Hompoa <br/>
 Line: kasettakorn
 
