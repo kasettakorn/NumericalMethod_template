@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-### `สิ่งที่ต้องทำก่อนติดตั้ง (Pre-requisite)`
+### `สิ่งที่ต้องทำก่อนติดตั้ง (Pre-requisites)`
 1. ติดตั้ง Node.js (https://nodejs.org/en/)<br/>
 ### `Option เสริม เพื่อความง่ายในการทำ (Optional)`
 1. ติดตั้ง Microsoft VS Code <br/>
