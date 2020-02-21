@@ -12,9 +12,8 @@ class App extends Component {
 
   render() {
     return (
-    
+      <Router>
         <Layout>
-          <Router>
           <Header className="header" style={{ height: "80px" }}>
             <div className="headertext">
               <Icon type="fund" theme="filled" style={{ color: "white", fontSize: "70px", float: "left", marginTop: "2%" }} />
@@ -82,16 +81,15 @@ class App extends Component {
             </Sider>
             <Layout>
               <Content style={{ padding: 24, margin: 0, minHeight: 280, }}>
-              
-                  <Route path="/graphical" component={Graphical} />
-                  <Route path="/bisection" component={Bisection} />
-                  <Route path="/cramer" component={Cramer} />
-                  
-                   
-               </Content>
+
+                <Route path="/graphical" component={Graphical} />
+                <Route path="/bisection" component={Bisection} />
+                <Route path="/cramer" component={Cramer} />
+
+
+              </Content>
             </Layout>
           </Layout>
-          </Router>
           <Footer style={{ backgroundColor: "#001529", minHeight: 120 }}>
             <p style={{ fontSize: "24px", fontWeight: "bold", color: "white" }}>
               © All Right Reserved<br />
@@ -106,7 +104,7 @@ class App extends Component {
 
         </Layout>
 
-   
+      </Router>
 
     )
   }
