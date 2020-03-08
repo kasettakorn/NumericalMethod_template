@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import 'antd/dist/antd.css';
-import './style/style.scss';
+import './style/style.css';
 import { Layout, Menu, Icon } from 'antd';
 import Graphical from './pages/Root of Equation/Graphical'
 import Bisection from './pages/Root of Equation/Bisection'
@@ -27,7 +27,7 @@ class App extends Component {
           <Layout>
             <Sider width={335} style={{ background: "#fff" }}>
               <Menu
-                mode="inline"
+                mode="horizontal"
                 style={{ height: '80vh', borderRight: 0, backgroundColor: "#001529", overflowY: "scroll" }}
                 theme="dark"
               >

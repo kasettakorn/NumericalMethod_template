@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Card, Input, Button, Table} from 'antd';
-import '../../style/style.scss';
+import '../../style/style.css';
 import 'antd/dist/antd.css';
 import { range, compile } from 'mathjs';
 const InputStyle = {

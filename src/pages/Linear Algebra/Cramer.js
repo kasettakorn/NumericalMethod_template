@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Card, Input, Button} from 'antd';
-import '../../style/style.scss';
+import '../../style/style.css';
 import 'antd/dist/antd.css';
 import { det } from 'mathjs';
 
